@@ -1,0 +1,208 @@
+
+body{
+    margin:0;
+    font-family: sans-serif;
+}
+
+.section-1-l{
+width: 60%;
+height: 550px;
+background-color: white;
+float: left;
+}
+.section-1-r{
+   width: 40%;
+    height: 550px;
+   float: left; 
+    }
+    .section-1-inner-l{
+width: 75%;
+float: right;
+background-color: white;
+height: 400px;
+    }
+.nav-bar{
+display: flex;
+justify-content: space-between;
+width: 100%;
+height: 100px;
+margin-top: 50px;
+align-items: center;
+    }
+    .nav-btns{
+        width: 60%;
+        display: flex;
+        justify-content: center;
+    }
+    .login{
+        border: none;
+        background-color: white;
+        color: black;
+        padding: 10px 30px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .login:hover{
+color: #fc8019;
+    }
+    .Signup{
+        border: none;
+        background-color: black;
+        color: white;
+        padding: 10px 30px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .head{
+font-weight: bold;
+font-size: 40px;
+color: black;
+margin-top: 30px;
+
+    }
+    .head-2{
+        font-weight: lighter;
+        font-size: 20px;
+        color: gray;
+        margin-top: -25px;
+    }
+    
+    
+    .search-input{
+      padding: 14px 110px;
+      border-right: none;
+        
+    }
+    .search-bar                                                           {
+        display: flex;
+        justify-content: left;
+    }
+    .locate-me{
+        border-left: none;
+     background-color: transparent;
+        height: 58px;
+        transition: 2s; 
+        
+}
+.locate-me:hover{
+background-color: wheat;
+}
+
+    .search-button{
+        background-color: #fc8019;
+        font-weight: bolder;
+        border:none;
+        padding: 14px 40px;
+        color: white;
+ }
+    .head-3{
+        color: grey;
+        font-weight: lighter;
+        font-size: 16px;
+        margin-top: 45px;
+    }
+    .citys{
+        display: flex;
+ 
+    }
+    .city{
+        padding-right: 12px;
+        color: black; 
+          
+    }
+   .flex-row-second{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #2b1e16;
+        height: 600px;
+        
+    }
+    .detail{
+         width: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    a{
+        text-decoration: none;
+    }
+    .section-2-head{
+        color: white;
+        font-weight: bolder;
+        font-size: 23px;
+    }
+    .section-2-head-2{
+        color: gray;
+        font-size: 16px;
+        margin-top: -10px;
+    }
+    .section-3{
+      height: 700px;
+        width: 100%;
+    }
+    .section-3-l{
+       width: 40%;
+       height: 600px;
+       float: left;
+    }
+    .section-3-r{
+        width: 60%;
+        height: 600px;
+        position: relative;
+        float: right;
+    }
+    .inner-section-3-l{
+        float: right;
+        width: 75%;
+        margin-top: 90px;
+        height: 600px;
+    }
+    .section-3-img-2{
+       position: absolute;
+       top: 98px;
+    }
+    .section-4{
+        background-color: black;
+        color: white;
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        }
+      .section-4-head{
+          color: gray;
+          font-weight: bolder;
+          margin-top: 75px;
+          font-size: 15px;
+      }
+      .section-4-head2{
+        color:white;
+        font-weight: bolder;
+        font-size: 15px;
+    }
+    .section-4-img{
+        margin-top: 90px;
+    }
+    .footer{
+        background-color: black;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .copyright{
+        color: white;
+        font-weight: bolder;
+        font-size: 18px;
+    }
+    .social-media{
+        word-spacing: 19px;
+    }
+     .button-footer{
+        border: none;
+        background-color: transparent;
+        transition: 0.2s;
+    }
+    .button-footer:hover{
+        transform: scale(1.2);
+    }
+
